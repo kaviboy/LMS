@@ -1,0 +1,71 @@
+
+div.container {
+    width: 100%;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: teal;
+    clear: left;
+    text-align: center;
+    width:100%;
+    opacity: 0.85;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+
+    
+    body {
+    
+    background-image:  url("../imagers/bwooden.jpg");
+    background-repeat: no-repeat;
+        background-position:00px 0px;
+        background-attachment: fixed;
+        color:white;
+    
+    
+    }
+    
+table {
+    border: 2px solid teal;
+}
+   
+th, td {
+    padding: 15px;
+    text-align: left;
+    color: teal;
+    font-weight: bold;
+    font-size: 20px;
+}
+input[type=submit]{
+   background-color: teal;
+    border:2px solid #555555;
+    border-radius:10px;
+    color:white;
+    padding:16px 32px;
+    text-decoration:none;
+    margin:4px 2px;
+    cursor: pointer;
+    font-size:14px;
+    
+}
+input[type=submit]:hover{
+    background-color: #00FFFF;
+    color:black;
+}

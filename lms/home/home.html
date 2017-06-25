@@ -5,6 +5,7 @@
     <title>LMS</title>
     <link rel="icon" href="../imagers/logo.png" type="image/png">
 <link rel="stylesheet" href="home%20css.css">
+    <link rel="stylesheet" href="slideshow.css">
 </head>
 <body >
     
@@ -13,12 +14,13 @@
 
 <header>
    <h1>Learning Management System</h1>
-    
+    <hr>
     <marquee behavior="alternate">Learning Management System</marquee>
+    <hr>
 </header>
     
-    <ul>
-  <li><a href="home.html">Home</a></li>
+<ul>
+  <li class="home"><a href="home.html">Home</a></li>
   <li class="dropdown1">
     <a href="" class="dropbtn1">Faculty of Computing</a>
     <div class="dropdown-content1">
@@ -42,26 +44,76 @@
   <li><a href="../contact us/contact.html">Contact Us</a></li>
   </li>
 </ul>
+</div>
     
-<!--<nav>
-  <ul>
-    <li><a href="home.html"button class="btn home">Home</button></a></li><br><br>
-    <li><a href="../computing/computing.html"button class="btn Computing">Computing</button></a></li><br><br>
-    <li><a href="../business/business.html"button class="btn Business">Business</button></a></li><br><br>
-    <li><a href="../Clubs & Societies/Clubs & Societies.html"button class="btn Clubs">Societies</button></a></li><br><br>
-    <li><a href="../news/news.html"button class="btn News">News</button></a></li><br><br>
-    <li><a href="../contact us/contact.html"button class="btn Contact">Contact Us</button></a></li><br><br>
-    
-    
-  </ul>
-</nav>-->
+    <div class="slideshow-container">
 
-<article>
-  
+<div class="mySlides fade">
+  <div class="numbertext">1 /5</div>
+  <img src="ss1.jpg" style="width:70%" >
  
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> <br><br><br> 
-<footer>© 2017 Learning Management System - All Rights Reserved<br>NSBM Green University Town<br></footer>
+</div>
 
+<div class="mySlides fade">
+  <div class="numbertext">2 /5</div>
+  <img src="ss2.jpg" style="width:70%">
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 5</div>
+  <img src="ss3.jpg" style="width:70%">
+  
+
+
+</div>
+        <div class="mySlides fade">
+  <div class="numbertext">4 / 5</div>
+  <img src="ss4.jpg" style="width:70%">
+  
+</div>
+        
+        <div class="mySlides fade">
+  <div class="numbertext">5 / 5</div>
+  <img src="ss5.jpg" style="width:70%">
+  
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+</div>
+    <script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+    
+
+
+ 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> <br><br><br> 
+<footer>© 2017 Learning Management System - All Rights Reserved<br>NSBM Green University Town<br></footer>
 
 
 </body>

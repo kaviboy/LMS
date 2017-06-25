@@ -26,7 +26,7 @@ li a, .dropbtn1 {
     text-decoration: none;
 }
 
-li a:hover, .dropdown1:hover .dropbtn1 {
+.dropbtn1 {
     background-color: red;
 }
 
@@ -160,5 +160,26 @@ nav ul a {
         background-attachment: fixed;
     
     }
+
+table{
+   width:100%;
+}
+th,td{
+    text-align: center;
+    opacity: 0.9;
+    background-color: teal;
+}
+th{
+    background-color: #4CAF50;
+    color: white;
+}
+tr:nth-child(even){background-color: #f2f2f2}
+
+a:link{
+    text-decoration:none;
     
- 
+}
+a:hover{
+     background-color: thistle;
+}
+   

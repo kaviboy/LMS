@@ -1,5 +1,289 @@
+h1.lms{
+    text-align: center;
+    color:white;
+}
 
-.dropdown-content1 a:hover {background-color: #f1f1f1}
+.lms1{
+    color:white;
+}
+
+div.upmenu{
+    background-color: teal;
+    width: 100%;
+    height: 20%;
+    float:left;
+}
+
+div.container{
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+    background-image:url("../imagers/bwooden.jpg"); 
+    background-attachment: fixed;
+}
+
+div.menu{
+    background-color: teal;
+    width: 100%;
+    height: 6.4%;
+    float:left;
+    background-color: black;
+}
+
+div.body{
+    float: left;
+    height: 73.6%;
+    width: 100%;
+    background-color: 
+}
+
+div.left{
+    width:35%;
+    height: 100%;
+    float: left;
+}
+
+div.leftup{
+    width:100%;
+    height: 10%;
+    float: left;
+}
+
+div.leftleft{
+    width: 10%;
+    height: 79%;
+    float: left;
+}
+
+div.leftcenter{
+    width: 80%;
+    height: 79%;
+    float: left;
+}
+
+div.leftcentertitle{
+    width: 100%;
+    height: 5%;
+    text-align: center;
+    color: white;
+    font-family: monospace;
+}
+
+div.leftcenterbody{
+    width: 100%;
+    height: 92%;
+}
+
+div.rightup{
+    width:100%;
+    height: 10%;
+    float: left;
+}
+
+div.rightleft{
+    width: 10%;
+    height: 79%;
+    float: left;
+}
+
+div.rightcenter{
+    width: 80%;
+    height: 79%;
+    float: left;
+}
+
+div.rightcentertitle{
+    width: 100%;
+    height: 5%;
+    text-align: center;
+    color: white;
+    font-family: monospace;
+}
+
+div.rightcenterbody{
+    width: 100%;
+    height: 92%;
+}
+
+div.block1{
+    width: 33.33%;
+    height: 33.33%;
+    float: left;
+    background-color: red;
+}
+
+.block11{
+    height: 100%;
+    width: 100%;
+}
+
+.block12{
+    height: 100%;
+    width: 100%;
+}
+
+.block13{
+    height: 100%;
+    width: 100%;
+}
+
+.block14{
+    height: 100%;
+    width: 100%;
+}
+
+.block15{
+    height: 100%;
+    width: 100%;
+}
+
+.block16{
+    height: 100%;
+    width: 100%;
+}
+
+.block17{
+    height: 100%;
+    width: 100%;
+}
+
+.block18{
+    height: 100%;
+    width: 100%;
+}
+
+.block19{
+    height: 100%;
+    width: 100%;
+}
+
+.block11:hover{
+    opacity: 0.6;
+}
+
+div.block2:hover{
+    background-color: coral;
+    opacity: 0.8;
+}
+
+div.block3:hover{
+    background-color: deeppink;
+    opacity: 0.8;
+}
+
+div.block4:hover{
+    background-color: navy;
+    opacity: 0.8;
+}
+
+div.block5:hover{
+    background-color: crimson;
+    opacity: 0.8;
+}
+
+div.block6:hover{
+    background-color: hotpink;
+    opacity: 0.8;
+}
+
+div.block7:hover{
+    background-color: darkblue;
+    opacity: 0.8;
+}
+
+div.block8:hover{
+    background-color: greenyellow;
+    opacity: 0.8;
+}
+
+div.block9:hover{
+    background-color: red;
+    opacity: 0.8;
+}
+
+div.block2{
+    width: 33.33%;
+    height: 33.33%;
+    float: left;
+    background-color: greenyellow;
+}
+
+div.block3{
+    width: 33.33%;
+    height: 33.33%;
+    float: left;
+    background-color: blue;
+}
+
+div.block4{
+    width: 33.33%;
+    height: 33.33%;
+    float: left;
+    background-color: gold;
+}
+
+div.block5{
+    width: 33.33%;
+    height: 33.33%;
+    float: left;
+    background-color: orange;
+}
+
+div.block6{
+    width: 33.33%;
+    height: 33.33%;
+    float: left;
+    background-color: indigo;
+}
+
+div.block7{
+    width: 33.33%;
+    height: 33.33%;
+    float: left;
+    background-color: cyan;
+}
+
+div.block8{
+    width: 33.33%;
+    height: 33.33%;
+    float: left;
+    background-color: maroon;
+}
+
+div.block9{
+    width: 33.33%;
+    height: 33.33%;
+    float: left;
+    background-color: darkmagenta;
+}
+
+div.center{
+    width:30%;
+    height: 100%;
+    float: left;
+}
+
+div.right{
+    width:35%;
+    height: 100%;
+    float: left;
+}
+
+div.centerup{
+    height: 10%;
+    width: 100%;
+}
+
+div.footer{
+    width: 100%;
+    height: 10%;
+    float: left;
+    background-color: teal;   
+}
+
+.dropdown-content1 a:hover {
+    background-color: #f1f1f1
+}
 
 .dropdown1:hover .dropdown-content1 {
     display: block;
@@ -14,6 +298,7 @@ ul {
     opacity: 0.7;
 }
 
+
 li {
     float: left;
 }
@@ -26,7 +311,7 @@ li a, .dropbtn1 {
     text-decoration: none;
 }
 
-li a:hover, .dropdown1:hover .dropbtn1 {
+.dropdown1:hover .dropbtn1 {
     background-color: red;
 }
 
@@ -51,13 +336,13 @@ li.dropdown1 {
     text-align: left;
 }
 
-.dropdown-content1 a:hover {background-color: lightgray}
+.dropdown-content1 a:hover {
+    background-color: lightgray
+}
 
 .dropdown1:hover .dropdown-content1 {
     display: block;
 }
-
-///////////////////////////////////////////////////DROPBUTTON FIX/////////////////////////////////////////////////////////////////
 
 .dropdown-content a:hover {background-color: cyan}
 
@@ -76,6 +361,10 @@ ul {
 
 li {
     float: left;
+}
+
+li.news{
+    background-color: red;
 }
 
 li a, .dropbtn {
@@ -111,129 +400,52 @@ li.dropdown {
     text-align: left;
 }
 
-.dropdown-content a:hover {background-color: lightgray}
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
 
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
-
-
-
-
-div.container {
-    width: 100%;
-
-}
-
-header, footer {
-    padding: 1em;
-    color: white;
-    background-color: teal;
-    clear: left;
+.footer{
     text-align: center;
-    opacity: 0.85;
-}
-
-nav {
-    float: left;
-    max-width: 160px;
-    margin: 0;
-    padding: 2em;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-   
-nav ul a {
-    text-decoration: none;
-}
-
-
+    color: white;
     
-    body {
-    
-    background-repeat: no-repeat;
-    background-position:00px 0px;
-    background-attachment: fixed;
-    color:white;
-    background-image: url("../imagers/bwooden.jpg");
-    }
-
-button {
-  border-radius: 4px;
-  background-color: #f4511e;
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 20px;
-  padding: 20px;
-  width: 150px;
-  height: 60px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
-}
-
-.button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.button span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.button:hover span {
-  padding-right: 25px;
-}
-
-.button:hover span:after {
-  opacity: 1;
-  right: 0;
 }
 
 th, td {
-    padding: 15px;
+    padding: 29px;
     text-align: left;
     color: teal;
-    font-weight: inherit;
     font-size: 20px;
     background-color: teal;
-    opacity: 0.9;
 }
 
 label{
-    font-family:monospace;
+
     color: white;
+    font-family: sans-serif;
+    font-size: 17px;
 }
 
 table {
     border: 2px solid gray;
 }
-    
-div.NewsLetter{
-    
+
+.buttonp{
+    background-color:floralwhite;
+    padding: 10px;
+    border-color: black;
+    font-family: fantasy;
+    font-size: 17px;
 }
 
-
-div.left{
-float: left;
+.buttonp:hover{
+    background-color: gold;
 }
 
-div.centerdetails{
-    
-}
-
-h1.lms{
-    
+.rightimg{
+    height: 100%;
+    width: 100%;
 }

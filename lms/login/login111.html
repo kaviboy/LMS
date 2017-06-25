@@ -1,0 +1,80 @@
+<html>
+    <head>
+       <title>LMS-Login</title>
+        <link rel="icon" href="../imagers/logo.png" type="image/png">
+<link rel="stylesheet" href="logincss111.css"> 
+         <script>
+        function validate(){
+            var x = document.forms["frm"]["uname"].value;
+            if(x==""){
+                alert("Username cannot be blank");
+                return false;
+                    }
+            var y = document.forms["frm"]["upassword"].value;
+                if(y==""){
+                    alert("Password cannot be blank");
+                    return false;
+                }
+            
+        }
+             
+        
+        
+        </script>
+        
+        
+    </head>
+<body>
+    
+    <div class="container">
+
+<header>
+   <h1>Learning Management System</h1>
+    <hr>
+    <marquee>Learning Management System</marquee>
+    <hr>
+</header>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    
+        <center>
+<form name="frm" onsubmit="return validate()" method="post">
+    
+  <div class="imgcontainer">
+    <img src="lmspic.png" alt="LMSPic" class="lmspic">
+  </div>
+<div class="container">
+    <label><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" size="5" name="uname">
+     <br>
+    <label><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="upassword" >
+    <br>
+    <button type="submit" value="login">Login</button>
+    <br>
+    <input type="checkbox" checked="checked"> Remember me
+    </div>
+
+  
+    <div class="container">
+    <input type="reset" value="Reset">
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+        
+            </form> 
+        
+  
+ 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<footer >
+          
+          © 2017 Learning Management System - All Rights Reserved<br>
+    
+            NSBM Green University Town<br>
+            </footer>
+        
+</body>
+</html>
